@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 50px auto;
+}
+
+input {
+  background-color: #dad9d9;
+  border: 0;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: 2px 2px 1px 2px #5c5959;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 150px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 150px;
+  outline: none;
+  box-shadow: 2px 2px 1px 2px #5c5959;
+  background-color: #319742;
+  font-weight: 600;
+}
+
+.contactsList {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.contactData {
+  margin-left: 20px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #dad9d9;
+  border-radius: 150px;
+  box-shadow: 2px 2px 1px 2px #5c5959;
+}
+
+.contactImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+}
